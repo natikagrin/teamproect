@@ -1,6 +1,8 @@
+@import './variables';
 @import './base';
 @import './common';
-@import './heroheader';
+@import './header';
+@import './hero';
 @import './products';
 @import './about';
 @import './advantages';
@@ -9,5 +11,8 @@
 @import './contacts';
 @import './footer';
 @import './modal';
+@import './modal-map';
+@import './modal-franchise';
+@import './about-modal';
 
-@import './example';
+// @import './example';

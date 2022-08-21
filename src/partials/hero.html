@@ -1,0 +1,133 @@
+<section class="hero-section" id="hero-header">
+  <div class="hero-section__container container">
+    <h1 class="hero-section__slogan">
+      ice cream<br />made with<br /><span class="hero-section__slogan--accent"
+        >passion</span
+      >
+    </h1>
+
+    <ul class="hero-nav list">
+      <li class="hero-nav__item">
+        <a class="hero-nav__link hero-nav__link--accent link" href="#products"
+          >Products</a
+        >
+      </li>
+      <li class="hero-nav__item">
+        <a class="hero-nav__link link btn-hover" href="#about"
+          >How it’s made?</a
+        >
+      </li>
+    </ul>
+
+    <div class="features-wrap">
+      <div class="milk-img">
+        <picture class="milk-img__image">
+          <source
+            srcset="
+              ./images/hero-milk-tablet-152.png 1x,
+              ./images/hero-milk-tablet-304.png 2x
+            "
+            media="(max-width: 1279px)"
+          />
+          <source
+            srcset="
+              ./images/hero-milk-desktop-213.png 1x,
+              ./images/hero-milk-desktop-426.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <img src="./images/hero-milk-desktop-213.png" alt="milk jar" />
+        </picture>
+        <div
+          class="milk-img__circle animate__animated animate__heartBeat animate__delay-1s"
+        ></div>
+      </div>
+
+      <div class="features">
+        <p class="features__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et
+        </p>
+        <button type="button" class="features__button btn-hover">
+          <svg class="features__btn-icon">
+            <use href="./images/icons.svg#arrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <ul class="stores list">
+      <li class="stores__item">
+        <p class="stores__text">
+          <span class="stores__text--accent">16 </span>cafes
+        </p>
+      </li>
+      <li class="stores__item">
+        <p class="stores__text">
+          <span class="stores__text--accent">23 </span>food trucks
+        </p>
+      </li>
+    </ul>
+
+    <div class="tasty-img">
+      <picture class="tasty-img__image">
+        <source
+          srcset="
+            ./images/hero-tasty-tablet-190.png 1x,
+            ./images/hero-tasty-tablet-380.png 2x
+          "
+          media="(max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/hero-tasty-desktop-304.png 1x,
+            ./images/hero-tasty-desktop-608.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <img
+          src="./images/hero-tasty-desktop-304.png"
+          alt="girl eating ice cream"
+        />
+      </picture>
+      <p
+        class="tasty-img__text animate__animated animate__backInDown animate__delay-2s"
+      >
+        soooooo tasty!
+      </p>
+      <div
+        class="tasty-img__circle animate__animated animate__heartBeat animate__delay-1s"
+      ></div>
+    </div>
+
+    <div class="hero-icecream animate__animated animate__backInUp">
+      <picture class="hero-icecream__image">
+        <source
+          srcset="
+            ./images/hero-icecream-mobile-171.png 1x,
+            ./images/hero-icecream-mobile-342.png 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            ./images/hero-icecream-tablet-143.png 1x,
+            ./images/hero-icecream-tablet-286.png 2x
+          "
+          media="(min-width: 768px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            ./images/hero-icecream-desktop-236.png 1x,
+            ./images/hero-icecream-desktop-472.png 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <img src="./images/hero-icecream-desktop-236.png" alt="icecream cone" />
+      </picture>
+      <div
+        class="hero-icecream__circle animate__animated animate__heartBeat animate__delay-1s"
+      ></div>
+    </div>
+  </div>
+</section>
