@@ -1,0 +1,2 @@
+(()=>{const o=document.querySelector("[data-about-modal-open]"),e=document.querySelector("[data-about-modal-close]"),d=document.querySelector("[data-about-modal]");o.addEventListener("click",(()=>{d.classList.remove("is-hidden"),bodyScrollLock.disableBodyScroll(document.body)})),e.addEventListener("click",(()=>{d.classList.add("is-hidden"),bodyScrollLock.enableBodyScroll(document.body)}))})();
+//# sourceMappingURL=index.1d60b62c.js.map

@@ -1,0 +1,2 @@
+(()=>{const e=document.querySelector(".cnt-btn__fr"),d=document.querySelector(".modal-close-btn-fr"),o=document.querySelector("[data-modal-fr]");e.addEventListener("click",(()=>{o.classList.remove("is-hidden"),bodyScrollLock.disableBodyScroll(document.body)})),d.addEventListener("click",(()=>{o.classList.add("is-hidden"),bodyScrollLock.enableBodyScroll(document.body)}))})();
+//# sourceMappingURL=index.0bd19eff.js.map

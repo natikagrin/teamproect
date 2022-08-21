@@ -1,0 +1,1 @@
+{"mappings":"AAAa,IAAIA,OAAO,YAAa,CACnCC,WAAY,CACVC,GAAI,qBACJC,WAAW","sources":["src/swiper.js"],"sourcesContent":["var swiper = new Swiper('.mySwiper', {\n  pagination: {\n    el: '.swiper-pagination',\n    clickable: true,\n  },\n});\n"],"names":["Swiper","pagination","el","clickable"],"version":3,"file":"index.cf650841.js.map"}
